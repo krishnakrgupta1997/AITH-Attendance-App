@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="attendance.jnlp">
+  <information>
+    <title>attendance</title>
+    <vendor>krishnakrgupta</vendor>
+    <description>AITH Attendance</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="attendance.jar" size="29286" download="eager" />
+    <jar href="libs/mysql-connector-java-8.0.12.jar" size="2020420" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="application.login"  name="AITH Attendance" />
+  <update check="background"/>
+</jnlp>
