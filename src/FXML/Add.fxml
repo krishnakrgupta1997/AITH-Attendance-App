@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="420.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.addController">
+   <children>
+      <Text layoutX="85.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="82.0" />
+      <Text layoutX="259.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enrollment No." AnchorPane.leftAnchor="259.0" AnchorPane.topAnchor="83.0" />
+      <Text layoutX="65.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year Of Joining" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="217.0" />
+      <Text layoutX="492.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course" AnchorPane.leftAnchor="490.0" AnchorPane.topAnchor="87.0" />
+      <Text layoutX="276.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No." AnchorPane.leftAnchor="259.0" AnchorPane.topAnchor="217.0" />
+      <Text layoutX="81.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parent's Name" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="320.0" />
+      <Text layoutX="254.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parent's Phone No." AnchorPane.leftAnchor="254.0" AnchorPane.topAnchor="320.0" />
+      <Text layoutX="445.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" AnchorPane.leftAnchor="490.0" AnchorPane.topAnchor="217.0" />
+      <TextField fx:id="stuName" layoutX="27.0" layoutY="119.0" />
+      <TextField fx:id="stuEnrol" layoutX="224.0" layoutY="116.0" />
+      <TextField fx:id="stuCourse" layoutX="437.0" layoutY="121.0" />
+      <TextField fx:id="stuYOJ" layoutX="29.0" layoutY="245.0" />
+      <TextField fx:id="stuPhone" layoutX="228.0" layoutY="246.0" />
+      <TextField fx:id="stuAddress" layoutX="438.0" layoutY="245.0" />
+      <TextField fx:id="stuPar" layoutX="31.0" layoutY="349.0" />
+      <TextField fx:id="parPhone" layoutX="231.0" layoutY="352.0" />
+      <Button fx:id="addButton" layoutX="32.0" layoutY="22.0" mnemonicParsing="false" onAction="#addButtonAction" text="ADD" />
+      <Label fx:id="confirmUpdate" layoutX="169.0" layoutY="387.0" prefHeight="16.0" prefWidth="289.0" textAlignment="CENTER" textFill="#08d746" />
+   </children>
+</AnchorPane>

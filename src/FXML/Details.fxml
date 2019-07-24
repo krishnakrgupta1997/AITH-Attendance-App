@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="420.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.detailsController">
+   <children>
+      <Text layoutX="85.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="83.0" />
+      <Text layoutX="259.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enrollment No." AnchorPane.leftAnchor="259.0" AnchorPane.topAnchor="83.0" />
+      <Text layoutX="65.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year Of Joining" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="217.0" />
+      <Text layoutX="492.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course" AnchorPane.leftAnchor="490.0" AnchorPane.topAnchor="83.0" />
+      <Text layoutX="268.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No." AnchorPane.leftAnchor="259.0" AnchorPane.topAnchor="217.0" />
+      <Text layoutX="81.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parent's Name" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="320.0" />
+      <Text layoutX="254.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parent's Phone No." AnchorPane.leftAnchor="259.0" AnchorPane.topAnchor="320.0" />
+      <Text layoutX="445.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" AnchorPane.leftAnchor="490.0" AnchorPane.topAnchor="217.0" />
+      <Button fx:id="backButton" layoutX="32.0" layoutY="22.0" mnemonicParsing="false" onAction="#backButtonAction" text="Close" />
+      <Text layoutX="491.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance" AnchorPane.leftAnchor="490.0" AnchorPane.topAnchor="320.0" />
+      <Label fx:id="stuName" layoutX="64.0" layoutY="117.0" prefHeight="26.0" prefWidth="143.0" text="Cannot Fetch" AnchorPane.leftAnchor="64.0" />
+      <Label fx:id="stuCourse" layoutX="491.0" layoutY="118.0" prefHeight="26.0" prefWidth="143.0" text="Cannot Fetch" AnchorPane.leftAnchor="491.0" AnchorPane.rightAnchor="66.0" />
+      <Label fx:id="stuEnrol" layoutX="262.0" layoutY="118.0" prefHeight="26.0" prefWidth="143.0" text="Cannot Fetch" AnchorPane.leftAnchor="262.0" />
+      <Label fx:id="stuADD" layoutX="487.0" layoutY="252.0" prefHeight="26.0" prefWidth="143.0" text="Cannot Fetch" AnchorPane.leftAnchor="491.0" AnchorPane.topAnchor="254.0" />
+      <Label fx:id="stuPhone" layoutX="251.0" layoutY="254.0" prefHeight="26.0" prefWidth="143.0" text="Cannot Fetch" AnchorPane.leftAnchor="262.0" AnchorPane.topAnchor="254.0" />
+      <Label fx:id="stuYOJ" layoutX="50.0" layoutY="251.0" prefHeight="26.0" prefWidth="143.0" text="Cannot Fetch" AnchorPane.leftAnchor="64.0" AnchorPane.topAnchor="254.0" />
+      <Label fx:id="stuParent" layoutX="67.0" layoutY="358.0" prefHeight="26.0" prefWidth="143.0" text="Cannot Fetch" AnchorPane.leftAnchor="64.0" AnchorPane.topAnchor="360.0" />
+      <Label fx:id="parPhone" layoutX="249.0" layoutY="360.0" prefHeight="26.0" prefWidth="143.0" text="Cannot Fetch" AnchorPane.leftAnchor="262.0" AnchorPane.topAnchor="360.0" />
+      <Label fx:id="stuAttend" layoutX="486.0" layoutY="355.0" prefHeight="26.0" prefWidth="143.0" text="Cannot Fetch" AnchorPane.leftAnchor="491.0" AnchorPane.topAnchor="360.0" />
+   </children>
+</AnchorPane>
